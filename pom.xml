@@ -1,0 +1,21 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cz.tefek</groupId>
+  <artifactId>botdiril-jbs</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Botdiril jBinarySerializer</name>
+  <description>Java implementation of binary data serialization implemented as a MessagePack wrapper.</description>
+  <properties>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+  </properties>
+  <dependencies>
+    <dependency>
+       <groupId>org.msgpack</groupId>
+       <artifactId>msgpack-core</artifactId>
+       <version>0.8.16</version>
+    </dependency>
+  </dependencies>
+</project>
