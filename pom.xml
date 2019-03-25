@@ -4,7 +4,7 @@
   <artifactId>botdiril-jbs</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>Botdiril jBinarySerializer</name>
-  <description>Java implementation of binary data serialization implemented as a MessagePack wrapper.</description>
+  <description>Custom Java implementation of a binary serialization file format.</description>
   <properties>
     <maven.compiler.source>11</maven.compiler.source>
     <maven.compiler.target>11</maven.compiler.target>
@@ -13,9 +13,9 @@
   </properties>
   <dependencies>
     <dependency>
-       <groupId>org.msgpack</groupId>
-       <artifactId>msgpack-core</artifactId>
-       <version>0.8.16</version>
-    </dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.8.1</version>
+	</dependency>
   </dependencies>
 </project>
